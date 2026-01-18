@@ -1,6 +1,6 @@
 import qs from "qs";
 
-export const BASE_URL = process.env.STRAPI_BASE_URL || "http://localhost:1337";
+export const BASE_URL = process.env.STRAPI_BASE_URL;
 const QUERY_HOME_PAGE = {
 populate : {
   sections: {
